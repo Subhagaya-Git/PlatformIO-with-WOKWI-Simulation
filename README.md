@@ -91,7 +91,9 @@ To test this setup, I simulated an **HC-SR04 Ultrasonic Sensor** project.
    - 🟡 **Yellow LED** → Object nearby  
    - 🔴 **Red LED** → Object very close  
 🔹 A **buzzer** alerts when the object is extremely close.  
-🔹 The **LCD display** shows the **real-time distance** in centimeters and status messages.  
+🔹 The **LCD display** shows the **real-time distance** in centimeters and status messages.
+
+https://github.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/blob/6ab98596b8fd296387916ba513de58e8046b4712/Ultrasonic%20Sensor%20with%20LCD%20LED%20BUZZER/Recording%202025-10-10%20213746.gif
 
 This project allowed me to practice Arduino programming and sensor integration effectively, even without physical hardware — making learning both **consistent and fun! 🚀**  
 

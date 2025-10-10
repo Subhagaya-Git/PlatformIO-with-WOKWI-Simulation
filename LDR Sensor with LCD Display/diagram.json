@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Tharushi-Saubhagaya",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 202.2, "left": 37.8, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -25.6,
+      "left": -191.2,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -252.8,
+      "left": 332,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": -51.6, "left": 359, "attrs": { "color": "blue" } }
+  ],
+  "connections": [
+    [ "ldr1:VCC", "uno:5V", "red", [ "h0" ] ],
+    [ "uno:5V", "lcd1:VCC", "red", [ "v0" ] ],
+    [ "uno:A5", "lcd1:SCL", "green", [ "v0" ] ],
+    [ "uno:A4", "lcd1:SDA", "green", [ "v0" ] ],
+    [ "uno:GND.1", "lcd1:GND", "black", [ "v0" ] ],
+    [ "uno:GND.1", "ldr1:GND", "black", [ "v0" ] ],
+    [ "ldr1:AO", "uno:A0", "green", [ "h38.4", "v440.9", "h211.2" ] ],
+    [ "uno:GND.1", "led1:C", "black", [ "v-211.2", "h211.5" ] ],
+    [ "led1:A", "uno:13", "blue", [ "v96", "h-211.2" ] ]
+  ],
+  "dependencies": {}
+}

@@ -79,7 +79,7 @@ To test this setup, I simulated a **Light Dependent Resistor (LDR)** project.
 
 This project helped me practice effectively even without access to physical hardware and that’s a **big win** for consistent learning. 🔥
 
-<img width="900" alt="LDR Sensor Simulation Demo" src="https://github.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/blob/d56075d85e90df704b66924f0552c2a8b22b1dcb/LDR%20Sensor%20with%20LCD%20Display/Recording%202025-10-06%20123416.gif" />
+<img width="900" alt="LDR Sensor Simulation Demo" src="https://github.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/raw/d56075d85e90df704b66924f0552c2a8b22b1dcb/LDR%20Sensor%20with%20LCD%20Display/Recording%202025-10-06%20123416.gif" />
 
 
 ---

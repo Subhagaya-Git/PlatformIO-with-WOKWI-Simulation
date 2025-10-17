@@ -80,8 +80,7 @@ To test this setup, I simulated a simple **Button Controlled LED** project.
 
 This project helped me understand how **input and output pins interact in Arduino** — an essential concept for building interactive hardware projects. ⚙️✨
 
-<img width="900" alt="LED Blink with Push Button Demo" src="https://raw.githubusercontent.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/main/PushButton%20with%20LED/Recording2025-10-18.gif" />
-
+<img width="900" alt="LED Blink with Push Button Demo" src="https://raw.githubusercontent.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/8cd9a4476ab2a95e92964b6db596240403ef9b7e/PushButton%20with%20LED/Recording%202025-10-17%20215409.gif" />
 ---
 
 ## 🌞📟 Example Project: LDR Sensor with LCD Display  

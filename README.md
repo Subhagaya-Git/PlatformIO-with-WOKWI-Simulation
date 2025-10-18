@@ -71,18 +71,6 @@ You can **build, test, and simulate** your Arduino circuits anytime, anywhere �
 
 ---
 
-## 🔘 Example Project: LED Blink with Push Button
-To test this setup, I simulated a simple **Button Controlled LED** project.  
-
-🔹 The LED connected to pin 12 turns **ON** when the button (pin 13) is pressed.  
-🔹 The button uses an **internal pull-up resistor**, meaning the input reads **LOW** when pressed.  
-🔹 This demonstrates how to read digital inputs and control outputs in real time.  
-
-This project helped me understand how **input and output pins interact in Arduino** — an essential concept for building interactive hardware projects. ⚙️✨
-
-<img width="900" alt="LED Blink with Push Button Demo" src="https://raw.githubusercontent.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/8cd9a4476ab2a95e92964b6db596240403ef9b7e/PushButton%20with%20LED/Recording%202025-10-17%20215409.gif" />
----
-
 ## 🌞📟 Example Project: LDR Sensor with LCD Display  
 To test this setup, I simulated a **Light Dependent Resistor (LDR)** project.  
 
@@ -109,6 +97,33 @@ To test this setup, I simulated an **HC-SR04 Ultrasonic Sensor** project.
      src="https://raw.githubusercontent.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/6ab98596b8fd296387916ba513de58e8046b4712/Ultrasonic%20Sensor%20with%20LCD%20LED%20BUZZER/Recording%202025-10-10%20213746.gif" />
 
 This project allowed me to practice Arduino programming and sensor integration effectively, even without physical hardware — making learning both **consistent and fun! 🚀**  
+
+---
+
+## 🔘 Example Project: LED Blink with Push Button  
+To test this setup, I simulated a simple **Button Controlled LED** project.  
+
+🔹 The LED connected to pin 12 turns **ON** when the button (pin 13) is pressed.  
+🔹 The button uses an **internal pull-up resistor**, meaning the input reads **LOW** when pressed.  
+🔹 This demonstrates how to read digital inputs and control outputs in real time.  
+
+This project helped me understand how **input and output pins interact in Arduino** — an essential concept for building interactive hardware projects. ⚙️✨  
+
+<img width="900" alt="LED Blink with Push Button Demo" src="https://raw.githubusercontent.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/8cd9a4476ab2a95e92964b6db596240403ef9b7e/PushButton%20with%20LED/Recording%202025-10-17%20215409.gif" />
+
+---
+
+## 🚨 Example Project: Button Controlled LED & Buzzer  
+To test this setup, I simulated a simple **Button Controlled LED and Buzzer** project.  
+
+🔹 When the button (pin 13) is pressed, the LED (pin 12) lights up and the buzzer (pin 11) produces sound.  
+🔹 The button uses an **internal pull-up resistor**, meaning it reads **LOW** when pressed.  
+🔹 Both output devices are controlled simultaneously, showing how multiple components can react to a single input.  
+
+This project helped me understand how to handle **multiple outputs** in response to one input — a key concept in interactive embedded systems. ⚙️🔆🎵  
+
+<img width="900" alt="Button Controlled LED and Buzzer Demo"
+     src="https://github.com/Subhagaya-Git/PlatformIO-with-WOKWI-Simulation/blob/3d2adb2f10ef52e5ea11f7a5b39e5f80bff68cd5/LED%20and%20BUZZER%20with%20Push%20Button/now.gif" />
 
 ---
 
@@ -145,4 +160,4 @@ Share your experiences, improvements, or favorite tricks — feedback is always 
 ---
 
 ## 🏁 Final Note  
-> “When hardware isn’t available, innovation doesn’t stop — simulation keeps the learning alive.”
+> “When hardware isn’t available, innovation doesn’t stop — simulation keeps the learning alive.”  

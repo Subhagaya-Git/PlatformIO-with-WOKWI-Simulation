@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "author": "nadeeshana lahiru",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 279, "left": 268.2, "attrs": {} },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": 239.4,
+      "left": 619.8,
+      "attrs": {}
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 54, "left": 416.6, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led2", "top": 102, "left": 368.6, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led3", "top": 102, "left": 455, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led4", "top": 150, "left": 416.6, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "joystick1:VCC", "uno:5V", "red", [ "v163.2", "h-230.4" ] ],
+    [ "joystick1:VERT", "uno:A0", "green", [ "v153.6", "h-144" ] ],
+    [ "joystick1:HORZ", "uno:A1", "green", [ "v144", "h-182.4" ] ],
+    [ "joystick1:GND", "uno:GND.2", "black", [ "v182.4", "h-278.4" ] ],
+    [ "led2:C", "uno:GND.1", "black", [ "v0" ] ],
+    [ "uno:GND.1", "led4:C", "black", [ "v0" ] ],
+    [ "uno:GND.1", "led1:C", "black", [ "v-134.4", "h-18.9", "v-57.6" ] ],
+    [ "uno:GND.1", "led3:C", "black", [ "v-134.4", "h86.7" ] ],
+    [ "uno:2", "led1:A", "green", [ "v0" ] ],
+    [ "uno:3", "led4:A", "green", [ "v-96", "h-53.6" ] ],
+    [ "uno:4", "led2:A", "green", [ "v-86.4", "h-92.1" ] ],
+    [ "uno:5", "led3:A", "green", [ "v-115.2", "h3.8" ] ]
+  ],
+  "dependencies": {}
+}

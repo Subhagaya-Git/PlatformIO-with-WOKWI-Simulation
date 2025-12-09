@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "author": "nadeeshana lahiru",
+    "editor": "wokwi",
+    "parts": [{ "type": "wokwi-arduino-uno", "id": "uno", "top": 96.6, "left": 18.6, "attrs": {} }],
+    "connections": [],
+    "dependencies": {}
+}

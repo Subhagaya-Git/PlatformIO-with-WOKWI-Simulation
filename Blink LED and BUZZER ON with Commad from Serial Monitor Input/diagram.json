@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "author": "nadeeshana lahiru",
+    "editor": "wokwi",
+    "parts": [
+        { "type": "wokwi-arduino-uno", "id": "uno", "top": 106.2, "left": 18.6, "attrs": {} },
+        { "type": "wokwi-led", "id": "led1", "top": -90, "left": 128.6, "attrs": { "color": "red" } },
+        {
+            "type": "wokwi-buzzer",
+            "id": "bz1",
+            "top": -112.8,
+            "left": 184.2,
+            "attrs": { "volume": "0.1" }
+        }
+    ],
+    "connections": [
+        ["uno:GND.1", "led1:C", "black", ["v0"]],
+        ["uno:13", "led1:A", "red", ["v-134.4", "h10"]],
+        ["uno:GND.1", "bz1:1", "black", ["v-115.2", "h67.5"]],
+        ["uno:12", "bz1:2", "red", ["v-105.6", "h67.7"]]
+    ],
+    "dependencies": {}
+}

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../led blink"
+		},
+		{
+			"name": "buzzer with push button",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

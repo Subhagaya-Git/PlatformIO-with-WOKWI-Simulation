@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "author": "nadeeshana lahiru",
+    "editor": "wokwi",
+    "parts": [
+        { "type": "wokwi-arduino-uno", "id": "uno", "top": 87, "left": -0.6, "attrs": {} },
+        {
+            "type": "wokwi-buzzer",
+            "id": "bz1",
+            "top": -103.2,
+            "left": 145.8,
+            "attrs": { "volume": "0.1" }
+        },
+        {
+            "type": "wokwi-pushbutton-6mm",
+            "id": "btn1",
+            "top": 19.7,
+            "left": 109.1,
+            "rotate": 90,
+            "attrs": { "color": "yellow", "xray": "1" }
+        }
+    ],
+    "connections": [
+        ["uno:GND.1", "btn1:2.r", "black", ["v0"]],
+        ["uno:13", "btn1:1.r", "blue", ["v-28.8", "h10"]],
+        ["uno:12", "bz1:2", "red", ["v-19.2", "h67.7"]],
+        ["btn1:1.l", "bz1:1", "green", ["v-19.2", "h38.4"]]
+    ],
+    "dependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Abhi Kumar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 19.8, "left": -0.6, "attrs": {} },
+    { "type": "board-ds18b20", "id": "temp1", "top": 171.67, "left": 349.68, "attrs": {} }
+  ],
+  "connections": [
+    [ "temp1:GND", "uno:GND.2", "black", [ "v57.6", "h-163.2" ] ],
+    [ "temp1:VCC", "uno:5V", "red", [ "v48", "h-220.8", "v38.4" ] ],
+    [ "temp1:DQ", "uno:2", "green", [ "v19.2", "h-76.8", "v-249.6", "h-57.6" ] ]
+  ],
+  "dependencies": {}
+}
